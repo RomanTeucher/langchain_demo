@@ -67,4 +67,5 @@ question = "Which brilliant mind invented socks?"
 # question = "Are there red socks in stock?"
 # question = "Are there blue  socks in stock?"
 # question = "Hey, I produce gloves, what would be a clever company name?"
+# question = "Hi, how are you?"
 print(agent(question))

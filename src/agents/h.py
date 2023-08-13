@@ -13,6 +13,6 @@ agent = initialize_agent(
     handle_parsing_errors=True,
     verbose=True)
 
-# question = "I have 20 pairs of red socks but someone buys 12, how many do I have left?"
-question = "Which brilliant mind invented socks?"
+question = "I have 20 pairs of red socks but someone buys 12, how many do I have left?"
+# question = "Which brilliant mind invented socks?"
 print(agent(question))

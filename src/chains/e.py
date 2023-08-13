@@ -18,7 +18,7 @@ llm = ChatOpenAI(temperature=0.0)
 product_name_chain = LLMChain(llm=llm, prompt=product_name_prompt_template, output_key="company_name")
 
 translation_template = """
-Please translate the product name '{company_name}' to German and French.
+Please translate the company name '{company_name}' to German and French.
 """
 
 translation_prompt_template = ChatPromptTemplate.from_template(translation_template)
