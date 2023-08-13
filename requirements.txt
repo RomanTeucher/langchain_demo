@@ -1,3 +1,4 @@
 python-dotenv==1.0.0
-langchain[docarray]==0.0.263
+langchain==0.0.263
 openai==0.27.8
+wikipedia

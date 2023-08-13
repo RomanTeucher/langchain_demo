@@ -12,7 +12,7 @@ What is a good name for a company that makes {product}?
 """
 
 prompt_template = ChatPromptTemplate.from_template(template)
-llm = ChatOpenAI(temperature=0.9)
+llm = ChatOpenAI(temperature=0.0)
 
 chain = LLMChain(llm=llm, prompt=prompt_template)
 
